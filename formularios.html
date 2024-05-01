@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 : Formularios</title>
+</head>
+<body>
+    <header>
+        <h1><b>Formulario de registro</b></h1>
+    </header>
+
+    <main>
+        <div>
+            <form>
+                <div>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" required />
+                  </div>
+
+                  <br>
+
+                  <div>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido">
+                  </div>
+
+                  <br>
+
+                <div>
+                    Modalidad de Cursada:
+                    <input type="radio" name="cursada" id="demand" />
+                    <label for="demand">On-Demand</label>
+                    <input type="radio" name="cursada" id="vivo" />
+                    <label for="vivo">En vivo</label>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo">
+                </div>
+
+                <br>
+
+                <div>
+                    <input type="checkbox" id="terminos" required>
+                    <label for="terminos">Deseo recibir informacion sobre nuevos posteos de la plataforma de Nucba.</label>
+                </div>
+
+                <br>
+
+                <div>
+                    <input type="checkbox" id="terminos" required>
+                    <label for="terminos">Declaro que lei los terminos y condiciones y estoy listo para convertirme en desarrollador web Full Stack.</label>
+                </div>
+
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+
+    <br>
+    <footer>
+        <b>
+            <a href="index.html">Volver al ejercicio 1 : Listas</a>
+        </b>
+    </footer>
+</body>
+</html>
